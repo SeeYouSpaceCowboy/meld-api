@@ -1,24 +1,33 @@
-# README
+<p align="center">
+  <img
+    src="https://user-images.githubusercontent.com/7621982/32139395-10478d60-bc15-11e7-8608-3be6ccd96a1e.png"
+    alt="terminal"
+    width="30" />
+</p>
+<h3 align="center">
+  Meld
+</h3>
+<p align="center" style="color: #999;">API</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p align="center"></p>
 
-Things you may want to cover:
+## Getting Started with Meld API
+These instructions will get you a copy of the project up and running on your local machine for development.
 
-* Ruby version
+### Prerequisites
+Things you need to install beforehand:
+* **Rails** - Ruby Framework
 
-* System dependencies
+### Installing
+Open terminal and run the following lines of code to clone and run this project.
 
-* Configuration
+ ```shell
+ $ git clone https://github.com/SeeYouSpaceCowboy/meld-api.git
+ $ cd meld-api
+ $ bundle install
+ $ rails s
+ ```
+ This project should now be running locally on port `3000`.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Contributors
+Meld API was built by [Mohammed Chisti](http://mohammedchisti.com).

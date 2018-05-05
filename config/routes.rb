@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   mount ActionCable.server, at: '/cable'
 
+  get '/', to: 'application#index', as: 'home'
+
   namespace :api do
     namespace :v1 do
       resources :users, only: [:index, :update, :destroy]

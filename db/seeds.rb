@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+simon = User.create(username: 'simon', first_name: 'mohammed', last_name: 'chisti')
+hira = User.create(username: 'hira', first_name: 'zahirul', last_name: 'islam')
+
+chat = Chat.create
+
+UserChat.create(user_id: simon.id, chat_id: chat.id)
+UserChat.create(user_id: hira.id, chat_id: chat.id)
+
+Message.create(user_id: simon.id, chat_id: chat.id, message: 'Hello')
+Message.create(user_id: hira.id, chat_id: chat.id, message: 'Hi')

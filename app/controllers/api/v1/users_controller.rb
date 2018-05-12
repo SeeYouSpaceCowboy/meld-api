@@ -27,7 +27,7 @@ class Api::V1::UsersController < ApplicationController
   end
 
   def show
-    render json: get_current_user
+    render json: get_current_user, include: '**'
   end
 
   private

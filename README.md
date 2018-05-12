@@ -27,7 +27,7 @@ Open terminal and run the following lines of code to clone and run this project.
  $ bundle install
  $ rails s
  ```
- This project should now be running locally on port `3000`.
+ This project should now be running locally on port `3005`.
 
 ## Contributors
 Meld API was built by [Mohammed Chisti](http://mohammedchisti.com).

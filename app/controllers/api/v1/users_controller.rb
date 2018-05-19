@@ -37,8 +37,8 @@ class Api::V1::UsersController < ApplicationController
         :username,
         :password,
         :password_confirmation,
-        :first_name,
-        :last_name,
+        :firstname,
+        :lastname,
         :email
       )
     end

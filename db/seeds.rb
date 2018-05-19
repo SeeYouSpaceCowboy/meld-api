@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-simon = User.create(username: 'simon', password: 'password', first_name: 'mohammed', last_name: 'chisti')
-hira = User.create(username: 'hira', password: 'password', first_name: 'zahirul', last_name: 'islam')
+simon = User.create(username: 'simon', password: 'password', firstname: 'mohammed', lastname: 'chisti')
+hira = User.create(username: 'hira', password: 'password', firstname: 'zahirul', lastname: 'islam')
 
 chat = Chat.create
 

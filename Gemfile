@@ -8,7 +8,7 @@ end
 ruby '2.4.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.6'
+gem 'rails', '~> 5.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -28,7 +28,6 @@ gem 'rack-cors', '~> 1.0.2'
 
 gem 'active_model_serializers', '~> 0.10.7'
 gem 'jwt', '~> 2.1.0'
-gem 'paperclip', '~>  6.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
